@@ -1,1 +1,2 @@
 # AI-GRADUATION-PROJECTS-DISTRIBUTION--USING-GENETICS-ALGORITHM
+This project aims to perform a distribution of a set of graduation projects over a number of student groups, using Genetics Algorithm. Given a data of 38 different projects, and 36 different groups of students with their preferred three choices, the goal is to assign each group to a project -which can be assigned to one group only-, and the assignment must be as close as possible to the first preferred choices of the groups.
