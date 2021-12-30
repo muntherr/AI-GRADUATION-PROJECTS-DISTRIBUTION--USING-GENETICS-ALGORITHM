@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AlgorithmGeneratorController">
+   <children>
+      <AnchorPane fx:id="StartPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="932.0" style="-fx-background-color: #696969;">
+         <children>
+            <Pane layoutY="-1.0" prefHeight="500.0" prefWidth="228.0" style="-fx-background-color: #FF8C00;">
+               <children>
+                  <Pane layoutX="1.0" layoutY="118.0" prefHeight="278.0" prefWidth="227.0">
+                     <children>
+                        <Circle fill="#1f75ff00" layoutX="110.0" layoutY="127.0" radius="108.0" stroke="#514f4f" strokeType="INSIDE" strokeWidth="15.0" style="-fx-stroke-dash-array: 50;" />
+                        <Circle fill="#1f75ff00" layoutX="111.0" layoutY="127.0" radius="79.0" stroke="#514f4f" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 60;" />
+                        <Circle fill="#1f75ff00" layoutX="112.0" layoutY="128.0" radius="48.0" stroke="#514f4f" strokeType="INSIDE" strokeWidth="5.0" style="-fx-stroke-dash-array: 30;" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Button fx:id="View" layoutX="500.0" layoutY="459.0" mnemonicParsing="false" text="Button" />
+            <GridPane layoutX="235.0" prefHeight="451.0" prefWidth="580.0" vgap="1.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="199.0" minWidth="10.0" prefWidth="100.33334350585938" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.66668701171875" minWidth="10.0" prefWidth="65.66668701171875" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.66668701171875" minWidth="10.0" prefWidth="100.66665649414062" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.66668701171875" minWidth="0.0" prefWidth="61.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.66668701171875" minWidth="10.0" prefWidth="101.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.66668701171875" minWidth="10.0" prefWidth="160.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="44.666664123535156" minHeight="19.0" prefHeight="44.666664123535156" />
+                <RowConstraints maxHeight="40.33333206176758" minHeight="21.0" />
+                <RowConstraints maxHeight="36.333335876464844" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="39.0" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="34.0" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="38.333343505859375" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="31.333328247070312" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.0" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="38.666656494140625" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.333343505859375" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="32.0" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="34.666656494140625" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.33331298828125" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="34.333343505859375" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="37.333343505859375" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="29.333343505859375" minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="35.333343505859375" minHeight="10.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="Gene3" prefHeight="33.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="2" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n2" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="63.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <Label fx:id="Gene31" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="3" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene311" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="4" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="5" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene313" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="6" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3121" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="13" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="13">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3122" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="12" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="12">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3123" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="11" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="11">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3124" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="10" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="10">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3125" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="9" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3126" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="8" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3127" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="7" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3128" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="15" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="15">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene3129" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="14" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="14">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene31210" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="16" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="16">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312112" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="1" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312113" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="1" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312114" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="1" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312115" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="1" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312116" prefHeight="25.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="1" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312117" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="1" textAlignment="CENTER" textFill="#fffaf2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n1" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="1.0" right="5.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="n11" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n10" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n9" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n8" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n7" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n6" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n5" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n4" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n3" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n16" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="16">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n15" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="15">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n14" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="14">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n13" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="13">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <TextField fx:id="n12" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label fx:id="Gene3121173" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="32" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="16">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n32" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="16">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121174" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="31" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="15">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n31" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="15">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121175" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="30" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="14">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n30" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="14">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121176" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="29" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="13">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n29" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="13">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121177" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="28" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="12">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n28" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="12">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121178" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="27" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="11">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n27" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="11">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121179" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="26" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n26" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211710" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="25" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n25" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211711" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="24" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n24" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211712" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="23" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n23" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211713" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="22" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n22" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211714" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="21" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n21" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211715" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="20" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n20" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211716" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="19" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n19" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211717" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="18" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n18" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene31211718" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="17" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n17" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="52.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene312117181" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="33" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312117183" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="36" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312117184" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="35" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="Gene312117185" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="34" textAlignment="CENTER" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="n36" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="n35" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="n34" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="n33" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <Label fx:id="Gene3121171" prefHeight="27.0" prefWidth="100.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="ProjectNo" textFill="#fffaf2">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene31211719" prefHeight="27.0" prefWidth="64.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="Group" textFill="#fffaf2" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene312117110" prefHeight="14.0" prefWidth="99.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="ProjectNo" textFill="#fffaf2" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene312117191" prefHeight="26.0" prefWidth="64.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="Group" textFill="#fffaf2" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Arial Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene312117111" prefHeight="27.0" prefWidth="100.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="Fitness:" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="13">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene312117112" prefHeight="27.0" prefWidth="100.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="#First Choices" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="14">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene3121171121" prefHeight="27.0" prefWidth="100.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="#Second Choices" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="15">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Gene3121171122" prefHeight="27.0" prefWidth="100.0" style="-fx-border-color: orange; -fx-border-width: 2;" styleClass="b" text="#Third Choices" textFill="#fffaf2" GridPane.columnIndex="4" GridPane.rowIndex="16">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Fitnes" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="13">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="F3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="16">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="F2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="15">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+                  <TextField fx:id="F1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="52.0" GridPane.columnIndex="5" GridPane.rowIndex="14">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets top="-4.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
